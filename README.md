@@ -33,12 +33,15 @@
 ## Трансляция
 
 Для Windows введите в консоли в директории с файлом `translate.py`:
+
 `py translate.py input-file-name [-o output-file-name]`
 
 Для Linux и MacOS введите в консоли в директории с файлом `translate.py`:
+
 `python translate.py input-file-name [-o output-file-name]`
 
 Пример команды для трансляции файла `in.psdred` в `out.py`:
+
 `python translate.py in.psdred -o out.py`
 
 ## Требования
