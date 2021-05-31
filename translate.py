@@ -69,8 +69,7 @@ with open(input_file_name, encoding='utf-8') as input_file, open(output_file_nam
             number_of_spaces -= 4
             assert in_if != 0
             in_if -= 1
-            if in_while == 0:
-                output_file.write('\n')
+            output_file.write('\n')
         elif line.startswith('ПОКА'):
             number_of_spaces += 4
             in_while += 1
