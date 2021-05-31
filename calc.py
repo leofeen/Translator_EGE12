@@ -1,4 +1,4 @@
-string = '34' + '+' + '266'
+string = '35' + '+' + '266'
 
 while not string.find('+0') != -1:
     string = string.replace('9+', 'А+', 1)
